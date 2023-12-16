@@ -16,6 +16,7 @@
                     @endif
 
                     You are logged in!
+                    <h3> {{__('messeges.new')}} </h3>
                 </div>
             </div>
         </div>

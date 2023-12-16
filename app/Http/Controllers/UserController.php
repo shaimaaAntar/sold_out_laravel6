@@ -44,12 +44,11 @@ class UserController extends Controller
         User::create([
             'name'=>$request->name,
             'img'=>$file_name,
-//            'img'=>$request->img,
             'email'=>$request->email,
             'password'=>$request->password
 
         ]);
-        echo 'success';
+//        echo 'success';
         return redirect('users');
     }
 
@@ -93,11 +92,6 @@ class UserController extends Controller
         $user->img=$request->img;
         $user->phone=$request->phone;
         $user->save();
-
-
-
-
-
 
     }
 

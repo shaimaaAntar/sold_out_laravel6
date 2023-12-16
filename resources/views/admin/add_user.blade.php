@@ -1,6 +1,7 @@
 @extends('layouts.admin');
 <!-- Site wrapper -->
 @section('content')
+
     <div class="wrapper">
     <!-- =============================================== -->
     <!-- Content Wrapper. Contains page content -->
@@ -99,12 +100,8 @@
     </div>
 -->
 
-    <div class="reset-button">
-<!--        <a href="#" class="btn btn-warning">Reset</a>-->
-<!--        <a  href="{{route('users.store')}}" class="btn btn-success">Save</a>-->
 
-    </div>
-</form>
+       </form>
                         </div>
                     </div>
                 </div>
@@ -114,6 +111,7 @@
     </div>
     <!-- /.content-wrapper -->
 </div>
+
 @endsection
 
 

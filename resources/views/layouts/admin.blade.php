@@ -46,6 +46,7 @@
       <!-- End Theme Layout Style
          =====================================================================-->
    </head>
+
 <body>
    <div class="hold-transition sidebar-mini">
       <!--preloader-->
@@ -459,5 +460,7 @@
       </script>
 
    </div>
+
    </body>
+
 </html>

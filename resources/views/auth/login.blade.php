@@ -120,9 +120,16 @@
                 </div>
 
                 <button type="submit" class="btn btn-black text-white btn-block">دخول</button>
-                <div class="text-center">
-                    <span>ليس لديك حساب ؟ </span><a href="signup.html" class="text-red">إنشاء حساب جديد </a>
+                {{--<div class="text-center">--}}
+                    {{--<span>ليس لديك حساب ؟ </span><a href="signup.html" class="text-red">إنشاء حساب جديد </a>--}}
+     {{----}}
+                {{--</div>--}}
+
+<div class="text-center">
+                  
+     <span>ليس لديك حساب ؟ </span><a href="{{ route('register') }}" class="text-red">إنشاء حساب جديد </a>
                 </div>
+
 
                         @if (Route::has('password.request'))
                             <a class="btn btn-link" href="{{ route('password.request') }}">

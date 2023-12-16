@@ -163,136 +163,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="5s" data-wow-delay=".5s">
-                    <div class="card">
-                        <img src="images/short.png" class="img-fluid" alt="">
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span><br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="7s" data-wow-delay=".7s">
-                    <div class="card">
-                        <img src="images/belt.png" class="img-fluid" alt="">
-                        <span class="bg-red text-white sale">خصم 20%</span>
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="9s" data-wow-delay=".9s">
-                    <div class="card">
-                        <img src="images/sunglass.png" class="img-fluid" alt="">
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span> <br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInLeft" data-wow-duration="3s" data-wow-delay=".3s">
-                    <div class="card">
-                        <img src="images/short.png" class="img-fluid" alt="">
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span><br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
-                    <div class="card">
-                        <img src="images/bag.png" class="img-fluid" alt="">
-                        <span class="bg-red text-white sale">خصم 20%</span>
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInLeft" data-wow-duration="7s" data-wow-delay=".7s">
-                    <div class="card">
-                        <img src="images/belt.png" class="img-fluid" alt="">
-                        <span class="bg-red text-white sale">خصم 20%</span>
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInLeft" data-wow-duration="9s" data-wow-delay=".9s">
-                    <div class="card">
-                        <img src="images/sunglass.png" class="img-fluid" alt="">
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span> <br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
+            @foreach($products as $product)
+
                 <div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="3s" data-wow-delay=".3s">
+                <a href="{{url('/products/'.$product->id)}}">
                     <div class="card">
-                        <img src="images/bag.png" class="img-fluid" alt="">
+                        <img src="{{asset('/front/images/bag.png')}}" class="img-fluid" alt="">
                         <span class="bg-red text-white sale">خصم 20%</span>
                         <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                            <h5> {{$product->product_name}} </h5>
+                            <span class="text-muted">{{$product->desc}}</span><br>
                             <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
                             <a href="#">
                                 <span class="fa fa-star checked"></span>
@@ -304,59 +186,209 @@
 
                         </div>
                     </div>
+                </a>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="5s" data-wow-delay=".5s">
-                    <div class="card">
-                        <img src="images/short.png" class="img-fluid" alt="">
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span><br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="7s" data-wow-delay=".7s">
-                    <div class="card">
-                        <img src="images/belt.png" class="img-fluid" alt="">
-                        <span class="bg-red text-white sale">خصم 20%</span>
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="9s" data-wow-delay=".9s">
-                    <div class="card">
-                        <img src="images/sunglass.png" class="img-fluid" alt="">
-                        <div class="card-body">
-                            <h5>اسم المنتج</h5>
-                            <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
-                            <span class="text-red">500 ريال </span> <br>
-                            <a href="#">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star text-muted"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
+            @endforeach
+                {{--  comments --}}
+                <div>
+
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="5s" data-wow-delay=".5s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/short.png" class="img-fluid" alt="">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span><br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="7s" data-wow-delay=".7s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/belt.png" class="img-fluid" alt="">--}}
+                        {{--<span class="bg-red text-white sale">خصم 20%</span>--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="9s" data-wow-delay=".9s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/sunglass.png" class="img-fluid" alt="">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span> <br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInLeft" data-wow-duration="3s" data-wow-delay=".3s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/short.png" class="img-fluid" alt="">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span><br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/bag.png" class="img-fluid" alt="">--}}
+                        {{--<span class="bg-red text-white sale">خصم 20%</span>--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInLeft" data-wow-duration="7s" data-wow-delay=".7s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/belt.png" class="img-fluid" alt="">--}}
+                        {{--<span class="bg-red text-white sale">خصم 20%</span>--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInLeft" data-wow-duration="9s" data-wow-delay=".9s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/sunglass.png" class="img-fluid" alt="">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span> <br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="3s" data-wow-delay=".3s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/bag.png" class="img-fluid" alt="">--}}
+                        {{--<span class="bg-red text-white sale">خصم 20%</span>--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="5s" data-wow-delay=".5s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/short.png" class="img-fluid" alt="">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span><br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="7s" data-wow-delay=".7s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/belt.png" class="img-fluid" alt="">--}}
+                        {{--<span class="bg-red text-white sale">خصم 20%</span>--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-3 col-md-6 mb-3 wow fadeInRight" data-wow-duration="9s" data-wow-delay=".9s">--}}
+                    {{--<div class="card">--}}
+                        {{--<img src="images/sunglass.png" class="img-fluid" alt="">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h5>اسم المنتج</h5>--}}
+                            {{--<span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>--}}
+                            {{--<span class="text-red">500 ريال </span> <br>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star checked"></span>--}}
+                                {{--<span class="fa fa-star text-muted"></span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+           {{----}}
+            </div>
             </div>
         </div>
 

@@ -51,7 +51,8 @@
                                         @foreach($data as $data)
 
                                             <tr>
-                                                <td><img src="{{asset('admin/assets/dist/img/w1.png')}}"
+{{--                                                <td><img src="{{asset('admin/assets/dist/img/w1.png')}}"--}}
+                                                <td><img src="{{asset('images/users/'.$data->img)}}"
                                                          class="img-circle" alt="User Image" width="50" height="50">
                                                 </td>
                                                 <td>{{$data->name}}</td>

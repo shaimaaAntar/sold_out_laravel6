@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\category;
 use App\product;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\App;
+use App\Http\Requests\productRequest;
 class ProductController extends Controller
 {
     /**
@@ -14,7 +16,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+       $data=product::all();
+        return view('admin.product_list',compact('data'));//,compact(products)
     }
 
     /**
@@ -24,7 +27,9 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+         $cat=category::all();
+
+        return view('admin.add_product',compact('cat'));
     }
 
     /**
@@ -33,10 +38,37 @@ class ProductController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+
+//        public function store(product $product)
+        public function store(Request $request)
+//        public function store(productRequest $productRequest)
     {
-        //
+        $file_extension=$request -> img -> getClientOriginalExtension();
+        $file_name=time().'.'.$file_extension;
+        $path='images/products';
+        $request ->img -> move($path,$file_name);
+        product::create([
+            'product_name'=>$request->product_name,
+            'img'=>$file_name,
+            'price'=>$request->price,
+            'desc'=>$request->desc,
+            'cat_id'=>$request->cat_id
+
+        ]);
+       return redirect('products');
+
     }
+
+//    public function store(Request $request)
+//    {
+//        //
+//        $file_extension=$request -> img -> getClientOriginalExtension();
+//        $file_name=time().'.'.$file_extension;
+//        $path='images/users';
+//        $request ->img -> move($path,$file_name);
+//       product::create( $request->all()
+//        ); echo 'success';
+//    }
 
     /**
      * Display the specified resource.

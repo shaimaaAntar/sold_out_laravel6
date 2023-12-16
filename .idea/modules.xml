@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../invoices7/.idea/invoices7.iml" filepath="$PROJECT_DIR$/../invoices7/.idea/invoices7.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/laravel6.iml" filepath="$PROJECT_DIR$/.idea/laravel6.iml" />
       <module fileurl="file://$PROJECT_DIR$/../sold-out-master/.idea/sold-out-master.iml" filepath="$PROJECT_DIR$/../sold-out-master/.idea/sold-out-master.iml" />
     </modules>
