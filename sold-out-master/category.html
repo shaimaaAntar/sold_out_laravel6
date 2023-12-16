@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sold out</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    
+  <header>
+    <div class="container-fluid bg-black">
+        <div class="container">
+            <div class="row top-header">
+                <div class="col-sm-6 col-12 text-white">
+                    <h6><img src="images/saudi-arabia.png" alt=""> التوصيل لجميع انحاء الممكلة العربية السعودية <span>| </span>
+                        <select class="mt-1 bg-black text-white">
+                            <option>English</option>
+                            <option>Arabic</option>
+                        </select>
+                    </h6>
+                   
+                </div>
+                <div class="col-sm-6 col-12 text-white right">
+                    <a href="#" class="text-white mr-2">
+                        +966 (014) 30 55555 <img src="images/phone.png" alt="">
+                    </a>
+                    <span>|</span>
+                    <a href="#" class="text-white ml-2 mail">
+                        sold_out@gmail.com <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid shadow">
+      <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand wow fadeInRight" data-wow-duration="2s" data-wow-delay=".2s" href="Home.html">
+            <img src="images/Blacklogo-nobackground.png" alt="" class="img-fluid" width="130">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active wow fadeInDown" data-wow-duration="2s" data-wow-delay=".2s">
+              <a class="nav-link" href="product.html">نساء <span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  نساء<i class="fas fa-sort-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">ملابس</a>
+                  <a class="dropdown-item" href="#">احذية</a>
+                  <a class="dropdown-item" href="#">نظارات</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  رجال<i class="fas fa-sort-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">ملابس</a>
+                  <a class="dropdown-item" href="#">احذية</a>
+                  <a class="dropdown-item" href="#">نظارات</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item wow fadeInDown" data-wow-duration="3s" data-wow-delay=".4s">
+              <a class="nav-link" href="#">رجال</a>
+            </li> -->
+            <!-- <li class="nav-item wow fadeInDown" data-wow-duration="4s" data-wow-delay=".6s">
+              <a class="nav-link" href="#">أطفال</a>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  أطفال<i class="fas fa-sort-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">ملابس</a>
+                  <a class="dropdown-item" href="#">احذية</a>
+                  <a class="dropdown-item" href="#">نظارات</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item wow fadeInDown" data-wow-duration="5s" data-wow-delay=".8s">
+              <a class="nav-link" href="#">فيتنج</a>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  فيتنج<i class="fas fa-sort-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">ملابس</a>
+                  <a class="dropdown-item" href="#">احذية</a>
+                  <a class="dropdown-item" href="#">نظارات</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item wow fadeInDown" data-wow-duration="6s" data-wow-delay=".10s">
+              <a class="nav-link" href="#">أوتليت</a>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  اوتليت<i class="fas fa-sort-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">ملابس</a>
+                  <a class="dropdown-item" href="#">احذية</a>
+                  <a class="dropdown-item" href="#">نظارات</a>
+                </div>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="7s" data-wow-delay=".12s">
+              <a class="nav-link" href="#">بيع الان</a>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="8s" data-wow-delay=".14s">
+              <a class="nav-link" href="#">الماركات</a>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="9s" data-wow-delay=".16s">
+              <a class="nav-link" href="#">اضف طلبك +</a>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="9s" data-wow-delay=".16s">
+              <a class="nav-link" href="#">المزيد</a>
+            </li>
+            
+          </ul>
+          <ul class="d-flex justify-content-around wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
+              <li class="mr-1"><a href="#"><img src="images/Search.png" alt=""></a></li>
+              <li class="mr-1"><a href="cart.html"><img src="images/cart.png" alt=""></a></li>
+              <li class="mr-1">
+                <a href="#"class="dropdown-toggle"role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="images/user.png" alt="">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="login.html">تسجيل الدخول</a>
+                  <a class="dropdown-item" href="signup.html">انشاء حساب</a>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </nav>  
+    </div>
+    
+</header>
+    
+    <section class="banner wow fadeInRight" data-wow-duration="3s" data-wow-delay=".3s">
+        <img src="images/banner-product.png" class="img-fluid" alt="">
+        <div class="text-center">
+            <h3>نساء</h3>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-3 mt-5 wow fadeInRight" data-wow-duration="3s" data-wow-delay=".3s">
+                <h6 class="mt-1">الفئة</h6><br>
+                <hr>
+                <table class="table table-borderless">
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">ساعات</a></td>
+                        <td><a href="#" class="text-muted">(35)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">ملابس</a></td>
+                        <td><a href="#" class="text-muted">(20)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">مجوهرات</a></td>
+                        <td><a href="#" class="text-muted">(2)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">أحذية</a></td>
+                        <td><a href="#" class="text-muted">(3)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">محافظ</a></td>
+                        <td><a href="#" class="text-muted">(30)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">اكسسوارات</a></td>
+                        <td><a href="#" class="text-muted">(20)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">حقائب</a></td>
+                        <td><a href="#" class="text-muted">(2)</a></td>
+                      </tr>
+                  </table>
+                <h6 class="mt-3">تصفية حساب</h6>
+                <hr>
+                <table class="table table-borderless">
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">شحن فورى</a></td>
+                        <td><a href="#" class="text-muted">(35)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">المضاف حديثا</a></td>
+                        <td><a href="#" class="text-muted">(20)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">الاعلى مشاهدة</a></td>
+                        <td><a href="#" class="text-muted">(200)</a></td>
+                      </tr>
+                  </table>
+                <h6 class="mt-3"> الحالة</h6>
+                <hr>
+                <table class="table table-borderless">
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">مستخدم كالجديد</a></td>
+                        <td><a href="#" class="text-muted">(35)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">جديد</a></td>
+                        <td><a href="#" class="text-muted">(20)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">استخدام مقبول</a></td>
+                        <td><a href="#" class="text-muted">(2)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">استخدام جيد جدا</a></td>
+                        <td><a href="#" class="text-muted">(3)</a></td>
+                      </tr>
+                  </table>
+                <h6 class="mt-3"> الماركات</h6>
+                <hr>
+                <table class="table table-borderless">
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">فرزاتشى</a></td>
+                        <td><a href="#" class="text-muted">(35)</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#" class="text-muted">شانيل</a></td>
+                        <td><a href="#" class="text-muted">(20)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">ديور</a></td>
+                        <td><a href="#" class="text-muted">(2)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">برادا</a></td>
+                        <td><a href="#" class="text-muted">(3)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">دولتشى اند غاباتا</a></td>
+                        <td><a href="#" class="text-muted">(30)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">بيرى برى</a></td>
+                        <td><a href="#" class="text-muted">(20)</a></td>
+                      </tr>
+                      <tr class=" wow fadeInDown" data-wow-duration="5s" data-wow-delay=".5s">
+                        <td><a href="#" class="text-muted">جمى شو</a></td>
+                        <td><a href="#" class="text-muted">(2)</a></td>
+                      </tr>
+                  </table>
+            </div>
+            <div class="col-lg-9 wow fadeInLeft" data-wow-duration="3s" data-wow-delay=".3s">
+                <div class="row">
+                    <div class="col-12 mt-5 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="d-flex justify-content-between">
+                            <h6>تم العثور على (30) منتج </h6>
+                            <div class="form-group">
+                                <select class="form-control">
+                                  <option>ترتيب حسب : <span class="text-muted">من منحفض الى مرتفع</span></option>
+                                  <option>ترتيب حسب : <span class="text-muted">من مرتفع الى منخفض</span></option>
+                                </select>
+                            </div>
+                        </div><hr>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/watch.png" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/dress.png" class="img-fluid" alt="">
+                            <span class="bg-red text-white sale">خصم 20%</span>
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/necklacee.png" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/dress.png" class="img-fluid" alt="">
+                            <span class="bg-red text-white sale">خصم 20%</span>
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/necklacee.png" class="img-fluid" alt="">
+                            <span class="bg-red text-white sale">خصم 20%</span>
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/watch.png" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/watch.png" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/dress.png" class="img-fluid" alt="">
+                            <span class="bg-red text-white sale">خصم 20%</span>
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">   
+                        <div class="card">
+                            <img src="images/necklacee.png" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/dress.png" class="img-fluid" alt="">
+                            <span class="bg-red text-white sale">خصم 20%</span>
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/necklacee.png" class="img-fluid" alt="">
+                            <span class="bg-red text-white sale">خصم 20%</span>
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span> &nbsp;&nbsp; <span class="text-muted through">700 ريال</span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 mt-3 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".5s">
+                        <div class="card">
+                            <img src="images/watch.png" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5>اسم المنتج</h5>
+                                <span class="text-muted">يكتب حالة المنتج كجديد او غيره</span><br>
+                                <span class="text-red">500 ريال </span><br>
+                                <a href="#">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star text-muted"></span> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                      </li>
+                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">التالى</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>    
+    </section>
+
+    <footer class="bg-black text-white">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay=".2s">
+                  <img src="images/Whitelogo-nobackground.png" class="img-fluid mt-3 mb-3 logo wow fadeInRight" data-wow-duration="3s" data-wow-delay=".3s" alt="">
+                  <p class=" wow fadeInRight" data-wow-duration="4s" data-wow-delay=".4s">هذا النص  هو مثال لنص يمكن ان يستبدل فى نفس المساحة  لقد تم توليد هذا النص من مولد النص العربى حيث يمكنك توليد هذا النض  العديد من الاخرى اضافة الى زيادة عدد الحروف التى يودلها التطبيق </p>
+                  <div class="d-flex justify-content-around p-3 social mt-3 wow fadeInRight" data-wow-duration="6s" data-wow-delay=".6s">
+                      <a href="#" class="text-decoration-none">
+                         <i class="fab fa-facebook-f"></i> 
+                      </a>
+                      <a href="#" class="text-decoration-none">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#" class="text-decoration-none">
+                          <i class="fab fa-google"></i>
+                      </a>
+                      <a href="#" class="text-decoration-none">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-3  mt-3 mb-3 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <hr class="bg-lwhite">
+                  <h6>الاقسام</h6>
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="product.html">نساء</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">رجال</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">أطفال</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">فيتنج</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">أوتليت</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">بيع اون لاين</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">  الماركات</a>
+                      </li>
+                    </ul>
+              </div>
+              <div class="col-lg-2 col-md-3 mt-3 mb-3 wow fadeInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <hr class="bg-lwhite">
+                  <h6>روابط سريعة</h6>
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">المدونة</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">كيف نعمل</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">سياسة الخصوصية</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">شروط و أحكام</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">الأسئلة الشائعة</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">خدمة العملاء</a>
+                      </li>
+                    </ul>
+              </div>
+              <div class="col-lg-4 col-md-12 mt-3 mb-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
+                  <hr class="bg-lwhite">
+                  <h6>اشترك الان</h6>
+                  <p>اشترك معنا ليصلك كل جديد</p>
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control-md pr-5" placeholder="البريد الالكترونى">
+                      <div class="input-group-append">
+                          <a href="#">
+                              <img src="images/send.png" class="fluid-img" alt="">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="d-flex justify-content-start">
+                      <a href="#">
+                          <img src="images/appstore.png" class="img-fluid mr-4" width="120" height="50" alt="">
+                      </a>
+                      <a href="#">
+                          <img src="images/googleplay.png" class="img-fluid mr-5" width="120" height="50" alt="">
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <div class="text-center bg-light-black">
+        <p class="text-white mb-0 pt-1 pb-1">جميع الحقوق محفوظة @ 2020</p>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

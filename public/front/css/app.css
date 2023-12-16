@@ -1,0 +1,692 @@
+@font-face{
+    font-family: 'cairo', sans-serif;
+    src: url(../fonts/Cairo-Black.ttf);
+    src: url(../fonts/Cairo-Bold.ttf);
+    src: url(../fonts/Cairo-ExtraLight.ttf);
+    src: url(../fonts/Cairo-Light.ttf);
+    src: url(../fonts/Cairo-Regular.ttf);
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+.rate{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #F2F2F2;
+    background-color: #F2F2F2;
+    width: 75vw;
+    margin: 0 auto;
+}
+.star-cb-group {
+  /* remove inline-block whitespace */
+  font-size: 0;
+  /* flip the order so we can use the + and ~ combinators */
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  /* the hidden clearer */
+}
+a:hover{
+    text-decoration: none;
+}
+.star-cb-group * {
+  font-size: 2rem;
+}
+.star-cb-group > input {
+  display: none;
+}
+.star-cb-group > input + label {
+  /* only enough room for the star */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 9999px;
+  width: 1em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.star-cb-group > input + label:before {
+  display: inline-block;
+  text-indent: -9999px;
+  content: "☆";
+  color: #888;
+}
+.star-cb-group > input:checked ~ label:before, .star-cb-group > input + label:hover ~ label:before, .star-cb-group > input + label:hover:before {
+  content: "★";
+  color: #e52;
+  text-shadow: 0 0 1px #333;
+}
+.star-cb-group > .star-cb-clear + label {
+  text-indent: -9999px;
+  width: .5em;
+  margin-left: -.5em;
+}
+.star-cb-group > .star-cb-clear + label:before {
+  width: .5em;
+}
+.star-cb-group:hover > input + label:before {
+  content: "☆";
+  color: #888;
+  text-shadow: none;
+}
+.star-cb-group:hover > input + label:hover ~ label:before, .star-cb-group:hover > input + label:hover:before {
+  content: "★";
+  color: #e52;
+  text-shadow: 0 0 1px #333;
+}
+fieldset {
+    border: 0;
+    width: auto;
+    border-radius: 1px;
+    padding: 1em 1.5em 0.9em;
+    margin: 1em auto;
+  }
+  
+  #log {
+    margin: 1em auto;
+    width: 5em;
+    text-align: center;
+    background: transparent;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+:root{
+    --dropdown-background: white;
+    --dropdown-width: 250px;
+}
+.bg-black{
+    background-color: #000000;
+}
+.btn-black{
+    background-color: #000000;
+}
+.btn-black:hover{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000 !important;
+}
+.bg-red{
+    background-color: #E52000;
+}
+.bg-red:hover{
+    background-color: #a3220e;
+}
+.bg-green{
+    background-color: #63E500;
+}
+.bg-dark-grey{
+    background-color: #858585;
+}
+.bg-grey{
+    background-color: #DCDCDC;
+}
+.bg-lwhite{
+    background-color: #F2F2F2;
+}
+.bg-light-black{
+    background-color: #101010;
+}
+.text-grey{
+    color: #DCDCDC;
+}
+.text-red{
+    color: #E52000;
+}
+.fa-sort-down {
+    font-size: 25px;
+    margin-right: .5rem;
+}
+/*============================*/
+.top-header h6,
+.top-header a{
+    font-size: 14px;
+}
+.top-header .right{
+    text-align: left;
+}
+.shadow{
+    border-bottom: 1px solid #F2F2F2;
+    box-shadow: 2px 2px 2px #DCDCDC;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    text-align: center;
+}
+nav ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+nav ul li.active a{
+    color: #E52000 !important;
+}
+nav ul li a:hover{
+    color: #E52000 !important;
+}
+nav i{
+    font-size: 28px;
+}
+a.dropdown-toggle:hover{
+    text-decoration: none;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-right: .255em;
+    vertical-align: .255em;
+    content: "";
+    border: none !important;
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    padding: 20px 0;
+    width: var(--dropdown-width);
+    left: 50%;
+    margin-left: calc((var(--dropdown-width) / 2)  * -1);
+    box-sizing: border-box;
+    z-index: 2;
+    
+    background: var(--dropdown-background);
+    border-radius: 6px;
+    list-style: none;
+  }
+.dropdown .dropdown-menu::before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 50%;
+    margin-left: -10px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent var(--dropdown-background) transparent;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu .dropdown-item:hover {
+    
+    background-color: #E52000;
+    color: #fff !important;
+    transition: all .2s ease-in-out;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+#carousel{
+    display: none;
+}
+.clothes{
+    background: url(../images/men.png)center no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.clothes-w{
+    background: url(../images/women.png)center no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+/*============================*/
+.through{
+    text-decoration: line-through;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    transition: all .5s ease-in;
+    cursor: pointer;
+}
+.card img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.card .sale{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 7px;
+}
+.card a:hover{
+    text-decoration: none;
+}
+.baner{
+    background: url(../images/banner.png)center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 100px;
+}
+.checked {
+    color: #000000;
+  }
+/* .checked:hover,
+.fa:hover{
+    color: #E52000 !important;
+} */
+.social a i{
+    color: #F2F2F2;
+    font-size: 18px;
+}
+.social a:nth-child(1) i:hover{
+    color: #0861d6;
+}
+.social a:nth-child(2) i:hover{
+    color: #09a7e6;
+}
+.social a:nth-child(3) i:hover{
+    color: #E52000;
+}
+.social a:nth-child(4) i:hover{
+    color: #f517bd;
+}
+footer ul li a{
+    font-size: 14px;
+}
+footer ul li a:hover{
+    color: #E52000 !important;
+}
+
+/*===========================*/
+.banner{
+    position: relative;
+} 
+.banner h3{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+}
+/*===========================*/
+.myhover:hover {
+    opacity: 0.6;
+}
+/*===========================*/
+ul.nav-tabs .nav-link{
+    color: #000000 !important;
+    font-weight: bold;
+}
+ul.nav-tabs .nav-link.active{
+    color: #E52000 !important;
+}
+.buttonInside{
+    position:relative;
+    margin-bottom:10px;
+  }
+  .buttonInside input.password{
+    height:45px !important;
+    width:100%;
+    padding-left:10px;
+    border-radius: 4px;
+  }
+  .buttonInside button.password{
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    border:none;
+    border-radius:0;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    padding:10px 30px !important;
+  }
+  .buttonInside input{
+    height:150px !important;
+    width:100%;
+    padding-left:10px;
+    border-radius: 4px;
+  }
+  
+  .buttonInside button{
+    position:absolute;
+    left: 10px;
+    bottom: 10px;
+    border:none;
+    border-radius:0;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    padding:10px 30px !important;
+  }
+  .buttonInside button:hover{
+    cursor:pointer;
+  }
+/*===========================*/
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    display: none;
+    height: 2.25rem;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    content: "";
+    background-color: #e9ecef;
+    border-right: inherit;
+    border-radius: .25rem 0 0 .25rem;
+}
+/*===========================*/
+.page-item .page-link{
+    color: #101010;
+    margin: 0 5px;
+    border: none;
+}
+.page-item .page-link:hover{
+    color: #F2F2F2 !important;
+    background-color: #E52000;
+}
+.page-item.active .page-link{
+    background-color: #E52000;
+    color: #F2F2F2 !important;
+}
+/*===========================*/
+.wrapper{
+    height: 200px; 
+    border: 2px solid #DCDCDC;
+    text-align: center;
+    line-height: 200px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.wrapper img{
+    padding:  0 20px;
+    transition: all .5s ease-in-out;
+}
+.wrapper img:hover{
+    transform: scale(1.2);
+}
+/*===========================*/
+/* Customize the label (the container) */
+.wrapper-radio {
+    display: block;
+    position: relative;
+    padding-right: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .wrapper-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #101010;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .wrapper-radio:hover input ~ .checkmark {
+    background-color: #101010;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .wrapper-radio input:checked ~ .checkmark {
+    background-color: #101010;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .wrapper-radio input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .wrapper-radio .checkmark:after {
+    left: 8px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    border: solid white;
+    border-radius: 50%;
+    border-width: 5px;
+  }
+/*===========================*/
+.profile a div{
+    padding: 8px 15px;
+}
+
+.profile a div:hover{
+    background-color: #F2F2F2;
+}
+.nav-pills .nav-link.active{
+    background-color: #F2F2F2;
+}
+.media img:hover{
+    transform: scale(1);
+}
+/*===========================*/
+
+
+@media screen and (max-width:768px){
+    .top-header h6>select{
+        display: none;
+    }
+    .space{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:425px){
+    html,body{
+        font-size: 90%;
+        overflow-x: hidden;
+    }
+    .logo{
+        width: 50%;
+    }
+    .top-header h6,
+    .top-header a{
+        font-size: 12px;
+    }
+    .top-header .right a{
+        margin-right: 0px !important;
+    }
+    .top-header .right a>img{
+        width: 14px !important;
+    }
+    .top-header .right a.mail{
+        margin-right: -7px !important;
+    }
+    .top-header .right span{
+        display: none !important;
+    }
+    .top-header .right{
+        text-align: justify;
+    }
+    .navbar-brand img{
+        width: 50%;
+    }
+    #carousel{
+        display: block;
+    }
+    #carouselExampleIndicators{
+        display: none;
+    }
+    .clothes{
+        background: url(../images/men.png)center no-repeat;
+        background-size: cover;
+        padding: 50px;
+        margin-right: 5px;
+    }
+    .clothes-w{
+        background: url(../images/women.png)center no-repeat;
+        background-size: cover;
+        padding: 50px;
+    }
+    .baner{
+        background: url(../images/banner.png)center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 80px 90px;
+    }
+    .media h5{
+        font-size: 16px;
+        margin-top: 0 !important;
+    }
+    .media img{
+        width: 100px;
+        height: 60px;
+    }
+}
+@media screen and (max-width:375px){
+    html,body{
+        font-size: 80%;
+        overflow-x: hidden;
+    }
+    .container-fluid{
+        width: 100% !important;
+    }
+    .top-header h6>select{
+        display: none;
+    }
+    .top-header h6,
+    .top-header a{
+        font-size: 10px;
+    }
+    .top-header .right a{
+        margin-right: 0px !important;
+    }
+    .top-header .right a>img{
+        width: 14px !important;
+    }
+    .top-header .right a.mail{
+        margin-right: -7px !important;
+    }
+    .top-header .right span{
+        display: none !important;
+    }
+    .top-header .right{
+        text-align: justify;
+    }
+    .navbar-brand img{
+        width: 50%;
+    }
+    #carousel{
+        display: block;
+    }
+    #carouselExampleIndicators{
+        display: none;
+    }
+    .clothes{
+        background: url(../images/men.png)center no-repeat;
+        background-size: cover;
+        padding: 40px;
+    }
+    .clothes-w{
+        background: url(../images/women.png)center no-repeat;
+        background-size: cover;
+        padding: 40px;
+    }
+    .baner{
+        background: url(../images/banner.png)center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 60px 50px;
+    }
+    .custom-file-label{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:320px){
+    html,body{
+        font-size: 70%;
+        overflow-x: hidden;
+    }
+    .container-fluid{
+        width: 100% !important;
+    }
+    .top-header h6>select{
+        display: none;
+    }
+    .top-header h6,
+    .top-header a{
+        font-size: 10px !important;
+    }
+    .top-header .right a{
+        margin-right: 10px !important;
+    }
+    .top-header .right a>img{
+        width: 12px !important;
+    }
+    .top-header .right a.mail{
+        margin-right: -7px !important;
+    }
+    .top-header .right span{
+        display: none !important;
+    }
+    .top-header .right{
+        text-align: justify;
+    }
+    .navbar-brand img{
+        width: 50%;
+    }
+    #carousel{
+        display: block;
+    }
+    #carouselExampleIndicators{
+        display: none;
+    }
+    .clothes{
+        background: url(../images/men.png)center no-repeat;
+        background-size: cover;
+        padding: 30px;
+    }
+    .clothes-w{
+        background: url(../images/women.png)center no-repeat;
+        background-size: cover;
+        padding: 30px;
+    }
+    .baner{
+        background: url(../images/banner.png)center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 50px 50px;
+    }
+    .media h5{
+        font-size: 12px !important;
+        margin-top: 0 !important;
+    }
+    .media img{
+        width: 70px !important;
+        height: 50px;
+    }
+    
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+        }
+    }
